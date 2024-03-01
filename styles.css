@@ -130,16 +130,6 @@ form button i {
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 768px) {
     #search-result {
         display: flex;
@@ -147,7 +137,6 @@ form button i {
         flex-direction: column;
     }
 }
-
 
 
 @media (max-width: 445px) {
