@@ -27,7 +27,6 @@ async function searchImages() {
         const imageLink = document.createElement("a");
         imageLink.href = result.links.html;
         imageLink.target = "_blank";
-        // imageLink.className = "fas fa-search";
         imageLink.appendChild(image);
         searchResult.appendChild(imageLink);
     })
