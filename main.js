@@ -39,6 +39,15 @@ searchForm.addEventListener("submit", (evt) => {
   searchImages();
 });
 
+// Add an event listener to handle the Enter key press in the search box
+searchBox.addEventListener("keypress", (evt) => {
+  if (evt.key === "Enter") {
+    evt.preventDefault();
+    page = 1;
+    searchImages();
+  }
+});
+
 showMoreBtn.addEventListener("click", () => {
   page++;
   searchImages();
