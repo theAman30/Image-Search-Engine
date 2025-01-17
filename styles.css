@@ -17,17 +17,14 @@ html {
 
 html::-webkit-scrollbar {
   width: 0.7rem;
-  border-radius: 20px;
 }
 
 html::-webkit-scrollbar-track {
   background: transparent;
-  border-radius: 20px;
 }
 
 html::-webkit-scrollbar-thumb {
   background: var(--scroll);
-  border-radius: 20px;
 }
 
 body {
